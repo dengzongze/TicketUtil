@@ -116,8 +116,7 @@ public class Test {
         }
         httpPost = new HttpPost("https://kyfw.12306.cn/passport/web/login");
         params.clear();
-        params.add(new BasicNameValuePair("username", "1029812778@qq.com"));
-        params.add(new BasicNameValuePair("password", "dzz920624"));
+
         params.add(new BasicNameValuePair("appid", "otn"));
         httpPost.setEntity(new UrlEncodedFormEntity(params, Consts.UTF_8));
         doMethod(httpclient, httpPost);
