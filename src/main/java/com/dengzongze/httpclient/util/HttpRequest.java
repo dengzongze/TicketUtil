@@ -1,4 +1,4 @@
-package cn.deng.project.ticket.booking.util;
+package com.dengzongze.httpclient.util;
 
 import javax.net.ssl.HostnameVerifier;
 import javax.net.ssl.HttpsURLConnection;

@@ -1,17 +1,13 @@
-package cn.deng.project.ticket.booking.util;
+package com.dengzongze.httpclient.util;
 
-import cn.deng.project.ticket.booking.custom.Passenger;
-import cn.deng.project.ticket.booking.custom.Passengers;
-import cn.deng.project.ticket.booking.custom.Train;
-import cn.deng.project.ticket.booking.custom.Trains;
+import com.dengzongze.httpclient.custom.Passengers;
+import com.dengzongze.httpclient.custom.Trains;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import org.apache.commons.codec.binary.StringUtils;
 import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.apache.http.Consts;
 import org.apache.http.HttpEntity;
-import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.CookieStore;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -20,17 +16,12 @@ import org.apache.http.client.methods.HttpGet;
 import org.apache.http.client.methods.HttpPost;
 import org.apache.http.client.methods.HttpUriRequest;
 import org.apache.http.conn.ssl.SSLConnectionSocketFactory;
-import org.apache.http.conn.ssl.TrustSelfSignedStrategy;
-import org.apache.http.cookie.Cookie;
 import org.apache.http.impl.client.BasicCookieStore;
 import org.apache.http.impl.client.CloseableHttpClient;
 import org.apache.http.impl.client.HttpClients;
-import org.apache.http.impl.cookie.BasicClientCookie;
 import org.apache.http.message.BasicNameValuePair;
 import org.apache.http.ssl.SSLContextBuilder;
-import org.apache.http.ssl.SSLContexts;
 import org.apache.http.ssl.TrustStrategy;
-import org.apache.http.util.EntityUtils;
 
 import javax.net.ssl.SSLContext;
 import java.io.*;

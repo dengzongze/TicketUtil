@@ -1,4 +1,4 @@
-package cn.deng.project.ticket.booking.service;
+package com.dengzongze.httpclient.service;
 
 /**
  * Created by dengzongze on 2017/10/5.
