@@ -5,9 +5,9 @@ package com.dengzongze.selenium;
  */
 public class Main {
 
-    public static void main(String[] args) {
-//        WebBaseService webBaseService = new WebBaseService();
-//        webBaseService.startChrome();
-        System.out.println("hello");
+    public static void main(String[] args) throws InterruptedException {
+        WebBaseService webBaseService = new WebBaseService();
+        webBaseService.startChrome();
+//        System.out.println("hello");
     }
 }
